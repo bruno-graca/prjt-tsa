@@ -29,3 +29,13 @@ curl --url 'smtps://smtp.gmail.com:465' --ssl-reqd \
   --mail-from 'from-email@gmail.com' \
   --mail-rcpt 'to-email@gmail.com' \
   --user 'from-email@gmail.com:YourPassword' 
+
+_04/01/2025_ 
+
+Projeto quase concluído em ambiente VM, com 4 funções principais:\
+  **Listar eventos** - Lista os eventos\
+  **Adicionar eventos** - Adiciona um evento à lista de eventos\
+  **Remover evento** - Remove o evento\
+  **Main loop** - cria a interface para interagir com a agenda\
+
+Objetivo atual: Criar uma 5ª função que utiliza o crontab para enviar lembretes, visto que é um dos objetivos inicialmente propostos.
