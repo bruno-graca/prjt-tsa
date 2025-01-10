@@ -39,3 +39,11 @@ Projeto quase concluído em ambiente VM, com 4 funções principais:\
   **Main loop** - cria a interface para interagir com a agenda\
 
 Objetivo atual: Criar uma 5ª função que utiliza o crontab para enviar lembretes, visto que é um dos objetivos inicialmente propostos.
+
+
+_10/01/2025_
+
+Projeto concluído com alguns bugs e objetivos não alcançados:
+
+Sistema de mails não funcional;\
+Função para remover eventos bugada, envia sempre mensagem de sucesso mesmo não tendo argumentos válidos.
